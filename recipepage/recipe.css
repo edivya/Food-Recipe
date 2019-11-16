@@ -1,0 +1,115 @@
+#nav-bar {
+    background-color:black;
+    border-bottom-style: solid;
+    border-bottom-color: 	#707070;
+    border-bottom-width: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 22px;
+}
+
+#faves-icon {
+    font-size: 22px;
+    color: #DB3A34;
+}
+
+#list-icon {
+    font-size: 22px;
+    color: #084C61;
+}
+
+#wrapper {
+    margin: 30px;
+}
+
+#img-ingred-box {
+    padding-top: 15px;
+    margin-bottom: 25px;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+#fav-btn {
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#recipeTitle {
+    font-size: 35px;
+    font-family: 'Lexend Exa', sans-serif;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+#recipeImg {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+hr {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 20px;
+}
+
+
+#recipeIngredients { /* CONTAINER FOR INSTRUCTIONS AND INGREDIENTS  */
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 14px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#instructions_header {
+    font-family: 'Lexend Exa', sans-serif;
+    font-style: bold;
+    font-size: 18px;
+}
+
+#recipeInstructions {
+    font-size: 16px;
+    font-family: 'Lora', serif;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 80px;
+    line-height: 30px;
+}
+
+#ingredients-section {
+    background-color: #F5F5F5;
+    padding: 15px;
+    max-width: 250px;
+}
+
+#ingredients_header {
+    font-style: strong;
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 18px;
+}
+
+.recipes {
+    font-family: 'Lora', serif;
+    line-height: 28px;
+    margin-left: 10px;
+}
+
+.recipes:hover{
+    color: #8e1c37;
+    font-size: 18px;
+}
+

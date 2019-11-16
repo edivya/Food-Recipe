@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cart to Kitchen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- BOOTSTRAP CDN -------------------------------------------------------------------------------------------->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+
+     <!-- FIREBASE  ------------------------------------------------------------------------------------------------>
+     <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
+     <!-- MOMENT.JS CDN -------------------------------------------------------------------------------------------->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <!-- GOOGLE FONTS  --------------------------------------------------------------------------------------------->
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Exa&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Exa|Lora&display=swap" rel="stylesheet">
+    
+    <!-- FONT AWESOME  --------------------------------------------------------------------------------------------->
+    <script src="https://kit.fontawesome.com/f53fc5f70f.js"></script>
+
+    <!-- JQUERY  --------------------------------------------------------------------------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- LINKS TO INTERNAL FILES =================================================================================-->
+
+    <!-- JAVASCRIPT ------------------------------------------------------------------------------------------------>
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <script src="recipe.js" type="text/javascript"></script>
+
+    <!-- CSS ------------------------------------------------------------------------------------------------------>
+    <link rel="stylesheet" type="text/css" href="recipe.css">
+    <!---=========================================================================================================-->
+
+
+</head>
+
+<body>
+
+        <!-- NAVIGATION BAR -->
+        <nav class="navbar" id="nav-bar">
+            <a href="../favoritepage/favorite.html" class="fas fa-heart" id="faves-icon"></a>
+            <a href="../index.html" class="text-center" id="logo"> Cart to Kitchen</a>
+            <a href="../listpage/list.html" class="fas fa-bars" id="list-icon"></a>
+        </nav>
+
+
+        <div id="wrapper">
+
+            <!-- RECIPE TITLE ---------->
+            <hr>
+
+            <div id="recipeTitle"></div>
+
+
+            <div class="container">
+
+
+                <div id="img-ingred-box">
+                    <!-- ROW 1---------------------------------------------------------------->
+                    <div class="row"> 
+
+                        <!-- IMAGE -->
+                        <div class="col-sm-7">
+                            <img class="img-fluid" id="recipeImg"></img>
+                        </div>
+
+                        <!-- INGREDIENTS -->
+                        <div id="all_ingredients" class="col-sm-5">
+                            <div id="ingredients-section">
+                                <p id="ingredients_header"> Ingredients: </p>
+                            </div>
+                        </div> <!-- end row with image and ingredients-->
+
+                    </div> <!-- END ROW 1 ---------------------------------------------------->
+                </div>
+
+                <!-- ROW 2--------------------------------------------------------------->
+
+                <!-- FAVORITES BUTTON -->
+                <div class="text-center">   
+                    
+                <button  id="fav-btn"> Add to Favorites  </button>
+            </div>
+            <br>
+
+            <hr>
+
+            <!-- INSTRUCTIONS & INGREDIENTS BOX --------->
+            <div id="recipeIngredients"> <!-- container with instructions and ingredients -->
+               
+                <div id="preparation">
+
+                    <!-- INSTRUCTIONS ---------->
+                    <p id="instructions_header">Preparation: </p>
+                    <div id="recipeInstructions"></div>
+
+                </div>
+
+
+                
+            </div>
+        </div>
+
+ </body>
