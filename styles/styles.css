@@ -1,0 +1,49 @@
+#nav-bar {
+    background-color: 	black;
+    border-bottom-style: solid;
+    border-bottom-color: 	#707070;
+    border-bottom-width: 0.5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 22px;
+}
+
+#faves-icon {
+    font-size: 22px;
+    color: #DB3A34;
+}
+
+#list-icon {
+    font-size: 22px;
+    color: #084C61;
+}
+
+li {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+h5 {
+    font-family: 'Lexend Exa', sans-serif;
+    color: black;
+}
+
+p {
+    font-family: 'Lora', serif;
+}
+
+a {
+	color: black;
+}
+
+a:hover{
+	color: #8e1c37;
+}
