@@ -1,0 +1,22 @@
+/* List page CSS */
+
+/* Elements */
+/* ----------------------------- */
+
+
+
+/* Classes */
+/* ----------------------------- */
+.listBox {
+    padding: 5px;
+    background-color: #F5F5F5;
+    min-height: 400px;
+}
+
+
+
+/* IDs */
+/* ----------------------------- */
+#map {
+    height: 400px;
+}
