@@ -8,10 +8,10 @@ This project was made for the Full Stack Web Development using the Spoonacular A
 
 ## Screenshots
 
-![LandingPage_ReadMe](https://user-images.githubusercontent.com/50184318/62906260-e2049680-bd22-11e9-9043-857527176971.jpg)
-![RecipePage_ReadMe](https://user-images.githubusercontent.com/50184318/62906258-e2049680-bd22-11e9-8141-e412b49304b7.jpg)
-![FavoritesPage_ReadMe](https://user-images.githubusercontent.com/50184318/62906261-e29d2d00-bd22-11e9-8498-4f453e897998.jpg)
-![ListPage_ReadMe](https://user-images.githubusercontent.com/50184318/62906259-e2049680-bd22-11e9-8017-81b362210c6e.jpg)
+![LandingPage_ReadMe](https://github.com/edivya/Food-Recipe/blob/master/assets/images/Food-Recipe-Landingpage.jpg)
+![RecipePage_ReadMe](https://github.com/edivya/Food-Recipe/blob/master/assets/images/Food-Recipe-Recipepage.png)
+![FavoritesPage_ReadMe](https://github.com/edivya/Food-Recipe/blob/master/assets/images/Food-Recipe-%20Favorites.png)
+![ListPage_ReadMe](https://github.com/edivya/Food-Recipe/blob/master/assets/images/Food-Recipe-List.png)
 
 ## Roadmap
 
