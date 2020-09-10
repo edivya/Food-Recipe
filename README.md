@@ -1,4 +1,4 @@
-# Food-Recipehttps://edivya.github.io/Food-Recipe
+# Food-Recipe
 
 ## Description
 
